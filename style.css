@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-menu a {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sing-up{
+    border-radius: 6px;
+    border: 1px solid #4cb538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+img {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px; /* 132.258% */
+    letter-spacing: 0.596px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 183.333% */
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.button-learn-more {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+
+    .link-menu a {
+        display: none;
+        font-size: 12px;
+        margin-right: 16px;
+    }
+
+    .button-sing-up {
+        margin-left: 390px;
+        display: block;
+    }
+
+    img {
+        margin-top: 226px;
+        width: 83vw;
+        height: 60vh;
+        margin-left: 45px;
+        display: block;
+    }
+
+    h1 {
+        width: 278px;
+        color: #161A49;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px; /* 100% */
+        letter-spacing: 0.596px;
+        margin-top: 150px;
+    }
+
+    p{
+        width: 304px;
+        font-weight: 400;
+        line-height: 33px; /* 183.333% */
+        letter-spacing: 0.5px;
+        font-size: 18px;
+        text-align:center ;
+    }
+
+    .button-learn-more {
+        margin-left: 100px;
+    }
+
+}
